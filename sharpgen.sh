@@ -7,7 +7,7 @@ echo "using System;"
 echo
 echo "class ASCIIArt{"
 echo "    public static void Main(string[] args){"
-echo "        var str = \"\" +"
+echo -n "        var str = "
 
 SG_IFS=$IFS
 IFS="\n"
